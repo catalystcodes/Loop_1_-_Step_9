@@ -13,6 +13,7 @@ body {
 
 .container1 {
     background-color: #f2f2f2;
+    overflow-y: scroll;
 }
 
 .container2 {
@@ -62,8 +63,43 @@ body {
     margin-left: 2.3rem;
     margin-right: 1.5rem;
     border-radius: 5px;
-    border: 0.1rem #e5e5e5 solid;
     padding-bottom: 0.5rem;
     padding-left: 0.7rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0.5px 0.5px 1px 1.5px #e5e5e5;
     /* padding-top: 0.1rem; */
+    border: 0.16rem transparent solid;
+}
+
+.head3 {
+    background-color: white;
+    margin-left: 2.3rem;
+    margin-right: 1.5rem;
+    border-radius: 5px;
+    border: 0.16rem #8793c6 solid;
+    padding-bottom: 0.5rem;
+    padding-left: 0.7rem;
+    margin-bottom: 1.3rem;
+}
+
+.head4 {
+    background-color: white;
+    margin-left: 2.3rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    padding-bottom: 0.3rem;
+    padding-left: 0.7rem;
+    box-shadow: 0.5px 0.5px 1px 1.5px #e5e5e5;
+    border: 0.16rem transparent solid;
+}
+
+.head4:hover {
+    border-color: #8793c6;
+    cursor: pointer;
+}
+
+.head2:hover {
+    cursor: pointer;
+    border-color: #8793c6;
 }
