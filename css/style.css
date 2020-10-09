@@ -5,7 +5,7 @@ body {
 
 .whole {
     display: grid;
-    grid-template-columns: 26% 45%;
+    grid-template-columns: 26% 48%;
     height: 26rem;
     margin: 6rem auto;
     margin-left: 21.5rem;
@@ -18,6 +18,7 @@ body {
 
 .container2 {
     background-color: #ffffff;
+    overflow-y: scroll;
 }
 
 .head1 {
@@ -97,9 +98,114 @@ body {
 .head4:hover {
     border-color: #8793c6;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .head2:hover {
     cursor: pointer;
     border-color: #8793c6;
+    transition: 0.5s;
+}
+
+.head3:hover {
+    cursor: pointer;
+}
+
+.head5 {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color: #333333;
+    /* border-bottom: 0.1rem #dedede solid;
+padding-right: rem; */
+}
+
+.line {
+    height: 0.01rem;
+    width: 25.3rem;
+    background-color: #dedede;
+    margin-left: 1rem;
+    margin-top: 2.5rem;
+}
+
+.p4 {
+    font-size: large;
+    font-weight: 500;
+    margin-right: 12rem;
+}
+
+.p5 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.img3 {
+    height: 0.8rem;
+    width: 0.8rem;
+    border: 0.1rem #dedede solid;
+    border-radius: 50%;
+    padding-right: 0.2rem;
+    padding-left: 0.2rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    margin-top: 1rem;
+}
+
+.p6 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 1.5rem;
+    color: #333333;
+}
+
+.head7 {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.br1 {
+    font-size: small;
+    color: #dedede;
+    margin-left: 4rem;
+}
+
+.b1 {
+    margin-left: 7rem;
+    color: #8797c6;
+}
+
+.b2 {
+    margin-left: 12rem;
+    color: #90d066;
+}
+
+.b3 {
+    margin-left: 13.2rem;
+    color: #8797c6;
+}
+
+.b4 {
+    margin-left: 15.8rem;
+    color: #8797c6;
+}
+
+.b5 {
+    margin-left: 9.5rem;
+    color: #8797c6;
+}
+
+.b6 {
+    margin-left: 13.5rem;
+    color: #8797c6;
+}
+
+.br2 {
+    padding-bottom: 2rem;
+    font-size: small;
+    color: #dedede;
+    margin-left: 4rem;
 }
